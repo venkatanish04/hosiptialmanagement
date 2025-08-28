@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="63c05748830ba650d44059d0deaad309" sys_domain="global" table="x_1807905_covid1_0_vaccination" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>aes.creator</sys_created_by>
+            <sys_created_on>2025-07-25 15:10:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>fbc05748830ba650d44059d0deaad30c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1807905_covid1_0_vaccination" name="x_1807905_covid1_0_vaccination" sys_domain="global" view="Default view">63c05748830ba650d44059d0deaad309</sys_ui_form>
+            <sys_ui_section caption="Patient Info" display_value="Patient Info" name="x_1807905_covid1_0_vaccination" sys_domain="global" view="Default view">99f9eb9b83fea250d44059d0deaad3c9</sys_ui_section>
+            <sys_updated_by>aes.creator</sys_updated_by>
+            <sys_updated_on>2025-07-25 15:10:39</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>aes.creator</sys_created_by>
+            <sys_created_on>2025-07-25 15:10:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7bc05748830ba650d44059d0deaad30d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1807905_covid1_0_vaccination" name="x_1807905_covid1_0_vaccination" sys_domain="global" view="Default view">63c05748830ba650d44059d0deaad309</sys_ui_form>
+            <sys_ui_section caption="Vaccination Info" display_value="Vaccination Info" name="x_1807905_covid1_0_vaccination" sys_domain="global" view="Default view">a7c05748830ba650d44059d0deaad306</sys_ui_section>
+            <sys_updated_by>aes.creator</sys_updated_by>
+            <sys_updated_on>2025-07-25 15:10:39</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>aes.creator</sys_created_by>
+            <sys_created_on>2025-07-25 15:10:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f3c05748830ba650d44059d0deaad311</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1807905_covid1_0_vaccination" name="x_1807905_covid1_0_vaccination" sys_domain="global" view="Default view">63c05748830ba650d44059d0deaad309</sys_ui_form>
+            <sys_ui_section caption="Approval" display_value="Approval" name="x_1807905_covid1_0_vaccination" sys_domain="global" view="Default view">e3c05748830ba650d44059d0deaad308</sys_ui_section>
+            <sys_updated_by>aes.creator</sys_updated_by>
+            <sys_updated_on>2025-07-25 15:10:39</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_1807905_covid1_0_vaccination</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>aes.creator</sys_created_by>
+            <sys_created_on>2025-07-25 15:10:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>63c05748830ba650d44059d0deaad309</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1807905_covid1_0_vaccination</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="COVID19_Hospital_Admin_App" source="x_1807905_covid1_0">4907da17837aa250d44059d0deaad302</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="COVID19_Hospital_Admin_App">4907da17837aa250d44059d0deaad302</sys_scope>
+            <sys_update_name>sys_ui_form_sections_63c05748830ba650d44059d0deaad309</sys_update_name>
+            <sys_updated_by>aes.creator</sys_updated_by>
+            <sys_updated_on>2025-07-25 15:10:38</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

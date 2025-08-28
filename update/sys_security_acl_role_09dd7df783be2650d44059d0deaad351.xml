@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>aes.creator</sys_created_by>
+        <sys_created_on>2025-07-24 14:29:37</sys_created_on>
+        <sys_id>09dd7df783be2650d44059d0deaad351</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1807905_covid1_0_patient.x_1807905_covid1_0.Nurse</sys_name>
+        <sys_package display_value="COVID19_Hospital_Admin_App" source="x_1807905_covid1_0">4907da17837aa250d44059d0deaad302</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="COVID19_Hospital_Admin_App">4907da17837aa250d44059d0deaad302</sys_scope>
+        <sys_security_acl display_value="x_1807905_covid1_0_patient">85dd7df783be2650d44059d0deaad34e</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_09dd7df783be2650d44059d0deaad351</sys_update_name>
+        <sys_updated_by>aes.creator</sys_updated_by>
+        <sys_updated_on>2025-07-24 14:29:37</sys_updated_on>
+        <sys_user_role display_value="x_1807905_covid1_0.Nurse" name="x_1807905_covid1_0.Nurse">7cdd7df783be2650d44059d0deaad323</sys_user_role>
+    </sys_security_acl_role>
+</record_update>
