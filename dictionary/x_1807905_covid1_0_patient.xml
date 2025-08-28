@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="245a125b837aa250d44059d0deaad3b4" label="Patient" max_length="40" name="x_1807905_covid1_0_patient" type="collection">
+        <element label="Name" max_length="40" name="name" type="string"/>
+        <element label="Assigned Doctor" max_length="32" name="assigned_doctor" reference="x_1807905_covid1_0_doctor" type="reference"/>
+        <element label=" Symptoms" max_length="40" name="symptoms" type="string"/>
+        <element choice="1" label="Gender" max_length="40" name="gender" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Female" sequence="1" value="Female"/>
+                <element inactive_on_update="false" label="Male" sequence="0" value="Male"/>
+                <element inactive_on_update="false" label="Other" sequence="2" value="Other"/>
+            </choice>
+        </element>
+        <element label="admission_date" max_length="255" name="admission_date" type="glide_date"/>
+        <element label="Age" max_length="255" name="age" type="integer"/>
+        <element label="Contact Number" max_length="255" name="contact_number" type="integer"/>
+        <element choice="1" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Recovered" sequence="2" value="Recovered"/>
+                <element inactive_on_update="false" label="Positive" sequence="0" value="Postive"/>
+                <element inactive_on_update="false" label="Negative" sequence="1" value="Negative"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="assigned_doctor"/>
+        </index>
+    </element>
+</database>

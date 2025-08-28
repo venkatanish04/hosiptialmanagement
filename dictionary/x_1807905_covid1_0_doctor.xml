@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="eca71a57837aa250d44059d0deaad36f" label="Doctor" max_length="40" name="x_1807905_covid1_0_doctor" type="collection">
+        <element label="Available_From" max_length="255" name="available_from" type="glide_date_time"/>
+        <element label="Available_To" max_length="255" name="available_to" type="glide_date_time"/>
+        <element label="Name" max_length="40" name="name" type="string"/>
+        <element label="Is_Availability" max_length="255" name="availability" type="boolean"/>
+        <element label="Specialization" max_length="40" name="specialization" type="string"/>
+        <element choice="1" label="Shift" max_length="40" name="shift" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Morning" sequence="0" value="Morning"/>
+                <element inactive_on_update="false" label="AfterNoon" sequence="1" value="AfterNoon"/>
+                <element inactive_on_update="false" label="Night" sequence="2" value="Night"/>
+            </choice>
+        </element>
+    </element>
+</database>

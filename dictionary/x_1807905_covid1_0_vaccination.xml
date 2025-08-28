@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="6be9e7db83fea250d44059d0deaad3e8" label="Vaccination" max_length="40" name="x_1807905_covid1_0_vaccination" type="collection">
+        <element label="Patient" max_length="32" name="patient" reference="x_1807905_covid1_0_patient" type="reference"/>
+        <element label="Scheduled Date" max_length="255" name="scheduled_date" type="calendar_date_time"/>
+        <element choice="1" label="Doctor Approval" max_length="40" name="doctor_approval" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="YES" sequence="0" value="YES"/>
+                <element inactive_on_update="false" label="NO" sequence="1" value="NO"/>
+            </choice>
+        </element>
+        <element label="Contact" max_length="255" name="contact" type="integer"/>
+        <element choice="1" label="Vaccine Type" max_length="40" name="vaccine_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Covaxin" sequence="0" value="Covaxin"/>
+                <element inactive_on_update="false" label="Covishield" sequence="1" value="Covishield"/>
+                <element inactive_on_update="false" label="Pfizer" sequence="2" value="Pfizer"/>
+            </choice>
+        </element>
+        <element label="Patient Age" max_length="255" name="patient_age" type="integer"/>
+        <element label="Discharges" max_length="255" name="discharges" type="integer"/>
+        <element label="Dose Number" max_length="255" name="dose_number" type="integer"/>
+        <element choice="1" label="Approval_status" max_length="40" name="approval_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Approved" sequence="1" value="Approved"/>
+                <element inactive_on_update="false" label="Pending" sequence="0" value="Pending"/>
+                <element inactive_on_update="false" label="Rejected" sequence="2" value="Rejected"/>
+            </choice>
+        </element>
+        <element label="Admissions" max_length="255" name="admissions" type="integer"/>
+        <element label="Daily_Report Date" max_length="255" name="daily_report_date" type="glide_date"/>
+        <element label="Critical Patients" max_length="255" name="critical_patients" type="integer"/>
+        <index name="index">
+            <element name="patient"/>
+        </index>
+    </element>
+</database>
