@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="doctor_approval" table="x_1807905_covid1_0_vaccination" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>doctor_approval</element>
+            <name>x_1807905_covid1_0_vaccination</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>aes.creator</sys_created_by>
+            <sys_created_on>2025-07-23 09:11:21</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>doctor_approval</sys_name>
+            <sys_package display_value="COVID19_Hospital_Admin_App" source="x_1807905_covid1_0">4907da17837aa250d44059d0deaad302</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="COVID19_Hospital_Admin_App">4907da17837aa250d44059d0deaad302</sys_scope>
+            <sys_update_name>sys_choice_x_1807905_covid1_0_vaccination_doctor_approval</sys_update_name>
+            <sys_updated_by>aes.creator</sys_updated_by>
+            <sys_updated_on>2025-07-23 09:11:21</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>doctor_approval</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>YES</label>
+            <language>en</language>
+            <name>x_1807905_covid1_0_vaccination</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>aes.creator</sys_created_by>
+            <sys_created_on>2025-07-23 09:11:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>aes.creator</sys_updated_by>
+            <sys_updated_on>2025-07-23 09:11:21</sys_updated_on>
+            <value>YES</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>doctor_approval</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>NO</label>
+            <language>en</language>
+            <name>x_1807905_covid1_0_vaccination</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>aes.creator</sys_created_by>
+            <sys_created_on>2025-07-23 09:11:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>aes.creator</sys_updated_by>
+            <sys_updated_on>2025-07-23 09:11:22</sys_updated_on>
+            <value>NO</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

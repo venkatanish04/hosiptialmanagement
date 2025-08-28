@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="DELETE">
+        <cleared>true</cleared>
+        <disabled>true</disabled>
+        <field>symptoms</field>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>aes.creator</sys_created_by>
+        <sys_created_on>2025-07-24 15:27:07</sys_created_on>
+        <sys_id>17fa0a3b83fe2650d44059d0deaad317</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>symptoms</sys_name>
+        <sys_package display_value="COVID19_Hospital_Admin_App" source="x_1807905_covid1_0">4907da17837aa250d44059d0deaad302</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="COVID19_Hospital_Admin_App">4907da17837aa250d44059d0deaad302</sys_scope>
+        <sys_update_name>sys_ui_policy_action_17fa0a3b83fe2650d44059d0deaad317</sys_update_name>
+        <sys_updated_by>aes.creator</sys_updated_by>
+        <sys_updated_on>2025-07-24 15:27:07</sys_updated_on>
+        <table>x_1807905_covid1_0_patient</table>
+        <ui_policy display_value="If the corona is positive">03fa0a3b83fe2650d44059d0deaad313</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <visible>true</visible>
+    </sys_ui_policy_action>
+    <sys_translated_text action="DELETE" query="documentkey=17fa0a3b83fe2650d44059d0deaad317"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="COVID19_Hospital_Admin_App">4907da17837aa250d44059d0deaad302</application>
+        <file_path/>
+        <instance_id>1b06953ceb58e6185a2dfceacad0cd0d</instance_id>
+        <instance_name>dev299383</instance_name>
+        <name>sys_ui_policy_action_17fa0a3b83fe2650d44059d0deaad317</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>true</cleared><disabled>true</disabled><field>symptoms</field><field_message/><field_message_type>none</field_message_type><mandatory>true</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>aes.creator</sys_created_by><sys_created_on>2025-07-24 15:27:07</sys_created_on><sys_id>17fa0a3b83fe2650d44059d0deaad317</sys_id><sys_mod_count>0</sys_mod_count><sys_name>symptoms</sys_name><sys_package display_value="COVID19_Hospital_Admin_App" source="x_1807905_covid1_0">4907da17837aa250d44059d0deaad302</sys_package><sys_policy/><sys_scope display_value="COVID19_Hospital_Admin_App">4907da17837aa250d44059d0deaad302</sys_scope><sys_update_name>sys_ui_policy_action_17fa0a3b83fe2650d44059d0deaad317</sys_update_name><sys_updated_by>aes.creator</sys_updated_by><sys_updated_on>2025-07-24 15:27:07</sys_updated_on><table>x_1807905_covid1_0_patient</table><ui_policy display_value="If the corona is positive">03fa0a3b83fe2650d44059d0deaad313</ui_policy><value/><value_action>ignore</value_action><visible>true</visible></sys_ui_policy_action><sys_translated_text action="delete_multiple" query="documentkey=17fa0a3b83fe2650d44059d0deaad317"/></record_update>]]></payload>
+        <payload_hash>69982891</payload_hash>
+        <record_name>symptoms</record_name>
+        <reverted_from/>
+        <source>2507da17837aa250d44059d0deaad3ad</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>aes.creator</sys_created_by>
+        <sys_created_on>2025-07-24 15:27:07</sys_created_on>
+        <sys_id>53fa0a3b83fe2650d44059d0deaad37e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1983d0b9a5e0000001</sys_recorded_at>
+        <sys_updated_by>aes.creator</sys_updated_by>
+        <sys_updated_on>2025-07-24 15:27:07</sys_updated_on>
+        <type>UI Policy Action</type>
+        <update_guid>57fa0a3b8efe26507a7a5d0d616bdc7d</update_guid>
+        <update_guid_history>57fa0a3b8efe26507a7a5d0d616bdc7d:69982891</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>aes.creator</sys_created_by>
+        <sys_created_on>2025-07-24 15:39:17</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy_action">sys_ui_policy_action</sys_db_object>
+        <sys_id>0c6770f0310e48d185a8646598fee221</sys_id>
+        <sys_metadata>17fa0a3b83fe2650d44059d0deaad317</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>symptoms</sys_name>
+        <sys_package display_value="COVID19_Hospital_Admin_App" source="x_1807905_covid1_0">4907da17837aa250d44059d0deaad302</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="COVID19_Hospital_Admin_App">4907da17837aa250d44059d0deaad302</sys_scope>
+        <sys_scope_delete display_value="">0d27c4999c7447dc88edc054491b86c4</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_action_17fa0a3b83fe2650d44059d0deaad317</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_action_17fa0a3b83fe2650d44059d0deaad317">53fa0a3b83fe2650d44059d0deaad37e</sys_update_version>
+        <sys_updated_by>aes.creator</sys_updated_by>
+        <sys_updated_on>2025-07-24 15:39:17</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
